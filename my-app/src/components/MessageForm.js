@@ -14,7 +14,7 @@ const MessageForm = ({ onMessageSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <textarea
+      <textarea className='text-area'
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         maxLength={128}

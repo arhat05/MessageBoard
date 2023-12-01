@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  margin-top: 75x;
+  margin-top: 200px;
   padding: 20px;
 }
 
@@ -16,6 +16,22 @@ body {
   padding: 10px;
   border-bottom: 1px solid #ddd;
   position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Adjust the width as needed */
+  z-index: 1;
+  text-align: center;
+}
+
+.text-area {
+  width: 98.5%;
+  height: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  
 }
 
 form {

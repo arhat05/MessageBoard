@@ -1,4 +1,3 @@
-// Messages.js
 
 import React from 'react';
 
