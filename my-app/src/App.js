@@ -10,6 +10,7 @@ const App = () => {
     setMessages([message, ...messages]);
   };
 
+  
   return (
     <div>
       <div className="message-form">
