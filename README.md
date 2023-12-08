@@ -61,6 +61,37 @@ Or clone from github desktop
 ```
 cd server
 ```
+##### Install dependencies
+```
+npm install
+```
+##### Start the server
+```
+npm start
+```
+You should see the following message in your terminal:
+```
+Server running on port 5000
+```
+##### View the API
+Open http://localhost:5000/msgs to view the messages in the browser.
+
+### Start the frontend app
+Open a new terminal window and navigate to the root directory of the project.
+```
+cd ..
+```
+##### Install dependencies
+```
+npm install
+```
+##### Start the React app
+```
+npm start
+```
+##### View the app
+Open http://localhost:3000 to view it in the browser.
+
 
 
 
