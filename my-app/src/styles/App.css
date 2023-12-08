@@ -7,20 +7,21 @@ body {
 }
 
 .container {
-  margin-top: 200px;
   padding: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .message-form {
   background-color: #ffffff00;
   padding: 10px;
   border-bottom: 1px solid #ddd;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 80%; /* Adjust the width as needed */
-  z-index: 1;
+  z-index: 0;
   text-align: center;
 }
 

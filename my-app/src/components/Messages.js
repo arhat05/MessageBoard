@@ -15,7 +15,7 @@ const MessageList = () => {
     };
 
     fetchMessages();
-  }, []); // Empty dependency array ensures the effect runs once when the component mounts
+  }, [messages]); // Empty dependency array ensures the effect runs once when the component mounts
 
   return (
     <div>
