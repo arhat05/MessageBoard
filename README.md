@@ -67,7 +67,7 @@ npm install
 ```
 ##### Start the server
 ```
-npm start
+node server.js
 ```
 You should see the following message in your terminal:
 ```
